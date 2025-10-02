@@ -250,17 +250,17 @@ namespace FormMain
                 // 验证阈值的合理性
                 if (cpuUsageWarn >= cpuUsageDanger)
                 {
-                    MessageBox.Show("CPU使用率警告阈值必须小于危险阈值", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    Logger.Log("CPU使用率警告阈值必须小于危险阈值");
                     return;
                 }
                 if (availMemoryWarn <= availMemoryDanger)
                 {
-                    MessageBox.Show("可用内存警告阈值必须大于危险阈值", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    Logger.Log("可用内存警告阈值必须大于危险阈值");
                     return;
                 }
                 if (cpuTempWarn >= cpuTempDanger)
                 {
-                    MessageBox.Show("CPU温度警告阈值必须小于危险阈值", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    Logger.Log("CPU温度警告阈值必须小于危险阈值");
                     return;
                 }
                 
@@ -279,7 +279,7 @@ namespace FormMain
             }
             catch (Exception ex)
             {
-                MessageBox.Show("请输入有效的数值: " + ex.Message, "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Logger.LogError("请输入有效的数值", ex);
             }
         }
 

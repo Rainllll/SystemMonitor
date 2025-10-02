@@ -1,0 +1,1366 @@
+[2025-10-02 17:35:56.866] 程序开始启动
+[2025-10-02 17:35:56.871] 即将创建MainForm
+[2025-10-02 17:35:56.920] MainForm构造函数开始执行
+[2025-10-02 17:35:56.958] InitializeComponent执行完成
+[2025-10-02 17:35:59.385] InitializeDashboardComponents执行完成
+[2025-10-02 17:35:59.724] DashboardForm构造函数开始执行
+[2025-10-02 17:35:59.813] InitializeComponent执行完成
+[2025-10-02 17:35:59.813] SystemMetricsRepository创建完成
+[2025-10-02 17:35:59.813] DashboardForm构造函数执行完成
+[2025-10-02 17:35:59.949] 错误: 加载实时数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadRealTimeData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 304
+[2025-10-02 17:36:00.007] 错误: 加载预警数据失败
+异常信息: 获取预警记录失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetWarningRecordsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 112
+   在 FormMain.DashboardForm.LoadWarningData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 342
+[2025-10-02 17:36:00.050] 错误: 加载历史数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadHistoryData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 395
+[2025-10-02 17:36:00.081] 错误: 加载大屏数据失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.LoadScreenData() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 431
+[2025-10-02 17:36:00.086] 开始加载数据，时间范围: 2025/10/1 17:36:00 到 2025/10/2 17:36:00, 指标类型: CPU使用率
+[2025-10-02 17:36:00.113] 数据库连接状态: False
+[2025-10-02 17:36:00.139] 错误: 加载饼图数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadPieChartData(DateTime startTime, DateTime endTime, String metricType) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 573
+[2025-10-02 17:36:33.345] 程序开始启动
+[2025-10-02 17:36:33.345] 即将创建MainForm
+[2025-10-02 17:36:33.383] MainForm构造函数开始执行
+[2025-10-02 17:36:33.409] InitializeComponent执行完成
+[2025-10-02 17:36:35.756] InitializeDashboardComponents执行完成
+[2025-10-02 17:36:36.029] DashboardForm构造函数开始执行
+[2025-10-02 17:36:36.044] InitializeComponent执行完成
+[2025-10-02 17:36:36.044] SystemMetricsRepository创建完成
+[2025-10-02 17:36:36.044] DashboardForm构造函数执行完成
+[2025-10-02 17:36:36.141] 错误: 加载实时数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadRealTimeData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 304
+[2025-10-02 17:36:36.182] 错误: 加载预警数据失败
+异常信息: 获取预警记录失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetWarningRecordsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 112
+   在 FormMain.DashboardForm.LoadWarningData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 342
+[2025-10-02 17:36:36.210] 错误: 加载历史数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadHistoryData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 395
+[2025-10-02 17:36:36.242] 错误: 加载大屏数据失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.LoadScreenData() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 431
+[2025-10-02 17:36:36.247] 开始加载数据，时间范围: 2025/10/1 17:36:36 到 2025/10/2 17:36:36, 指标类型: CPU使用率
+[2025-10-02 17:36:36.274] 数据库连接状态: False
+[2025-10-02 17:36:36.305] 错误: 加载饼图数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadPieChartData(DateTime startTime, DateTime endTime, String metricType) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 573
+[2025-10-02 17:37:51.579] 程序开始启动
+[2025-10-02 17:37:51.586] 即将创建MainForm
+[2025-10-02 17:37:51.626] MainForm构造函数开始执行
+[2025-10-02 17:37:51.676] InitializeComponent执行完成
+[2025-10-02 17:37:54.086] InitializeDashboardComponents执行完成
+[2025-10-02 17:37:54.377] DashboardForm构造函数开始执行
+[2025-10-02 17:37:54.446] InitializeComponent执行完成
+[2025-10-02 17:37:54.450] SystemMetricsRepository创建完成
+[2025-10-02 17:37:54.450] DashboardForm构造函数执行完成
+[2025-10-02 17:37:54.555] 错误: 加载实时数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadRealTimeData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 312
+[2025-10-02 17:37:54.596] 错误: 加载预警数据失败
+异常信息: 获取预警记录失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetWarningRecordsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 112
+   在 FormMain.DashboardForm.LoadWarningData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 350
+[2025-10-02 17:37:54.623] 错误: 加载历史数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadHistoryData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 403
+[2025-10-02 17:37:54.656] 错误: 加载大屏数据失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.LoadScreenData() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 439
+[2025-10-02 17:37:54.656] 开始加载数据，时间范围: 2025/10/1 17:37:54 到 2025/10/2 17:37:54, 指标类型: CPU使用率
+[2025-10-02 17:37:54.681] 数据库连接状态: False
+[2025-10-02 17:37:54.712] 错误: 加载饼图数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadPieChartData(DateTime startTime, DateTime endTime, String metricType) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 581
+[2025-10-02 17:37:58.922] 错误: 加载实时数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadRealTimeData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 312
+[2025-10-02 17:37:59.818] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:38:00.820] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:38:02.352] 错误: 加载大屏数据失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.LoadScreenData() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 439
+[2025-10-02 17:38:03.874] 错误: 加载大屏数据失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.LoadScreenData() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 439
+[2025-10-02 17:38:12.592] 开始加载数据，时间范围: 2025/10/1 17:37:54 到 2025/10/1 17:37:54, 指标类型: 可用内存
+[2025-10-02 17:38:12.617] 数据库连接状态: False
+[2025-10-02 17:38:12.643] 错误: 加载饼图数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadPieChartData(DateTime startTime, DateTime endTime, String metricType) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 581
+[2025-10-02 17:38:13.040] 开始加载数据，时间范围: 2025/10/1 17:37:54 到 2025/10/1 17:37:54, 指标类型: 可用内存
+[2025-10-02 17:38:13.059] 数据库连接状态: False
+[2025-10-02 17:38:13.085] 错误: 加载饼图数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadPieChartData(DateTime startTime, DateTime endTime, String metricType) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 581
+[2025-10-02 17:38:13.243] 开始加载数据，时间范围: 2025/10/1 17:37:54 到 2025/10/1 17:37:54, 指标类型: 可用内存
+[2025-10-02 17:38:13.264] 数据库连接状态: False
+[2025-10-02 17:38:13.288] 错误: 加载饼图数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadPieChartData(DateTime startTime, DateTime endTime, String metricType) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 581
+[2025-10-02 17:38:13.788] 错误: 加载大屏数据失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.LoadScreenData() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 439
+[2025-10-02 17:38:15.216] 错误: 加载实时数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadRealTimeData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 312
+[2025-10-02 17:38:15.998] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:38:21.852] 程序开始启动
+[2025-10-02 17:38:21.857] 即将创建MainForm
+[2025-10-02 17:38:21.916] MainForm构造函数开始执行
+[2025-10-02 17:38:21.960] InitializeComponent执行完成
+[2025-10-02 17:38:24.563] InitializeDashboardComponents执行完成
+[2025-10-02 17:38:24.830] DashboardForm构造函数开始执行
+[2025-10-02 17:38:24.846] InitializeComponent执行完成
+[2025-10-02 17:38:24.851] SystemMetricsRepository创建完成
+[2025-10-02 17:38:24.851] DashboardForm构造函数执行完成
+[2025-10-02 17:38:25.002] 错误: 加载实时数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadRealTimeData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 312
+[2025-10-02 17:38:25.072] 错误: 加载预警数据失败
+异常信息: 获取预警记录失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetWarningRecordsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 112
+   在 FormMain.DashboardForm.LoadWarningData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 350
+[2025-10-02 17:38:25.132] 错误: 加载历史数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadHistoryData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 403
+[2025-10-02 17:38:25.190] 错误: 加载大屏数据失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.LoadScreenData() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 439
+[2025-10-02 17:38:25.192] 开始加载数据，时间范围: 2025/10/1 17:38:25 到 2025/10/2 17:38:25, 指标类型: CPU使用率
+[2025-10-02 17:38:25.232] 数据库连接状态: False
+[2025-10-02 17:38:25.284] 错误: 加载饼图数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadPieChartData(DateTime startTime, DateTime endTime, String metricType) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 581
+[2025-10-02 17:38:35.860] 错误: 加载实时数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadRealTimeData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 312
+[2025-10-02 17:38:36.465] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:38:37.976] 错误: 加载大屏数据失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.LoadScreenData() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 439
+[2025-10-02 17:38:38.913] 错误: 加载大屏数据失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.LoadScreenData() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 439
+[2025-10-02 17:38:45.623] 程序开始启动
+[2025-10-02 17:38:45.633] 即将创建MainForm
+[2025-10-02 17:38:45.689] MainForm构造函数开始执行
+[2025-10-02 17:38:45.732] InitializeComponent执行完成
+[2025-10-02 17:38:48.238] InitializeDashboardComponents执行完成
+[2025-10-02 17:38:48.504] DashboardForm构造函数开始执行
+[2025-10-02 17:38:48.525] InitializeComponent执行完成
+[2025-10-02 17:38:48.525] SystemMetricsRepository创建完成
+[2025-10-02 17:38:48.525] DashboardForm构造函数执行完成
+[2025-10-02 17:38:48.615] 错误: 加载实时数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadRealTimeData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 312
+[2025-10-02 17:38:48.651] 错误: 加载预警数据失败
+异常信息: 获取预警记录失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetWarningRecordsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 112
+   在 FormMain.DashboardForm.LoadWarningData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 350
+[2025-10-02 17:38:48.682] 错误: 加载历史数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadHistoryData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 403
+[2025-10-02 17:38:48.715] 错误: 加载大屏数据失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.LoadScreenData() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 439
+[2025-10-02 17:38:48.720] 开始加载数据，时间范围: 2025/10/1 17:38:48 到 2025/10/2 17:38:48, 指标类型: CPU使用率
+[2025-10-02 17:38:48.741] 数据库连接状态: False
+[2025-10-02 17:38:48.776] 错误: 加载饼图数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadPieChartData(DateTime startTime, DateTime endTime, String metricType) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 581
+[2025-10-02 17:41:12.961] 程序开始启动
+[2025-10-02 17:41:12.966] 即将创建MainForm
+[2025-10-02 17:41:13.009] MainForm构造函数开始执行
+[2025-10-02 17:41:13.047] InitializeComponent执行完成
+[2025-10-02 17:41:15.502] InitializeDashboardComponents执行完成
+[2025-10-02 17:41:22.425] 数据库统计信息:
+总记录数: 859
+最早记录时间: 
+最晚记录时间: 
+数据库大小: 0.00 MB
+
+正在执行数据管理策略...
+[2025-10-02 17:41:22.482] 数据管理执行完成:
+清理记录数: 0
+聚合记录数: 1
+归档文件: D:\archive\metrics_archive_20251002_174122.csv
+
+执行后数据库统计信息:
+总记录数: 859
+数据库大小: 0.16 MB
+[2025-10-02 17:41:22.972] 数据库统计信息:
+总记录数: 859
+最早记录时间: 2025-09-21 23:04:20
+最晚记录时间: 2025-10-02 17:41:22
+数据库大小: 0.16 MB
+
+正在执行数据管理策略...
+[2025-10-02 17:41:22.977] 数据管理执行完成:
+清理记录数: 0
+聚合记录数: 0
+归档文件: D:\archive\metrics_archive_20251002_174122.csv
+
+执行后数据库统计信息:
+总记录数: 859
+数据库大小: 0.16 MB
+[2025-10-02 17:41:23.201] 数据库统计信息:
+总记录数: 860
+最早记录时间: 2025-09-21 23:04:20
+最晚记录时间: 2025-10-02 17:41:23
+数据库大小: 0.16 MB
+
+正在执行数据管理策略...
+[2025-10-02 17:41:23.207] 数据管理执行完成:
+清理记录数: 0
+聚合记录数: 0
+归档文件: D:\archive\metrics_archive_20251002_174123.csv
+
+执行后数据库统计信息:
+总记录数: 860
+数据库大小: 0.16 MB
+[2025-10-02 17:41:23.486] 数据库统计信息:
+总记录数: 860
+最早记录时间: 2025-09-21 23:04:20
+最晚记录时间: 2025-10-02 17:41:23
+数据库大小: 0.16 MB
+
+正在执行数据管理策略...
+[2025-10-02 17:41:23.500] 数据管理执行完成:
+清理记录数: 0
+聚合记录数: 0
+归档文件: D:\archive\metrics_archive_20251002_174123.csv
+
+执行后数据库统计信息:
+总记录数: 860
+数据库大小: 0.16 MB
+[2025-10-02 17:41:23.694] 数据库统计信息:
+总记录数: 860
+最早记录时间: 2025-09-21 23:04:20
+最晚记录时间: 2025-10-02 17:41:23
+数据库大小: 0.16 MB
+
+正在执行数据管理策略...
+[2025-10-02 17:41:23.705] 数据管理执行完成:
+清理记录数: 0
+聚合记录数: 0
+归档文件: D:\archive\metrics_archive_20251002_174123.csv
+
+执行后数据库统计信息:
+总记录数: 860
+数据库大小: 0.16 MB
+[2025-10-02 17:41:24.542] 数据库统计信息:
+总记录数: 861
+最早记录时间: 2025-09-21 23:04:20
+最晚记录时间: 2025-10-02 17:41:24
+数据库大小: 0.16 MB
+
+正在执行数据管理策略...
+[2025-10-02 17:41:24.549] 数据管理执行完成:
+清理记录数: 0
+聚合记录数: 0
+归档文件: D:\archive\metrics_archive_20251002_174124.csv
+
+执行后数据库统计信息:
+总记录数: 861
+数据库大小: 0.16 MB
+[2025-10-02 17:41:25.248] DashboardForm构造函数开始执行
+[2025-10-02 17:41:25.267] InitializeComponent执行完成
+[2025-10-02 17:41:25.268] SystemMetricsRepository创建完成
+[2025-10-02 17:41:25.268] DashboardForm构造函数执行完成
+[2025-10-02 17:41:25.381] 错误: 加载实时数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadRealTimeData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 312
+[2025-10-02 17:41:25.425] 错误: 加载预警数据失败
+异常信息: 获取预警记录失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetWarningRecordsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 112
+   在 FormMain.DashboardForm.LoadWarningData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 350
+[2025-10-02 17:41:25.465] 错误: 加载历史数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadHistoryData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 403
+[2025-10-02 17:41:25.501] 错误: 加载大屏数据失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.LoadScreenData() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 439
+[2025-10-02 17:41:25.501] 开始加载数据，时间范围: 2025/10/1 17:41:25 到 2025/10/2 17:41:25, 指标类型: CPU使用率
+[2025-10-02 17:41:25.522] 数据库连接状态: False
+[2025-10-02 17:41:25.557] 错误: 加载饼图数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadPieChartData(DateTime startTime, DateTime endTime, String metricType) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 581
+[2025-10-02 17:41:27.506] 错误: 加载大屏数据失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.LoadScreenData() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 439
+[2025-10-02 17:41:28.106] 错误: 加载大屏数据失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.LoadScreenData() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 439
+[2025-10-02 17:41:29.056] 错误: 加载实时数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadRealTimeData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 312
+[2025-10-02 17:41:29.622] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:42:39.528] 程序开始启动
+[2025-10-02 17:42:39.528] 即将创建MainForm
+[2025-10-02 17:42:39.565] MainForm构造函数开始执行
+[2025-10-02 17:42:39.596] InitializeComponent执行完成
+[2025-10-02 17:42:41.881] InitializeDashboardComponents执行完成
+[2025-10-02 17:42:44.690] DashboardForm构造函数开始执行
+[2025-10-02 17:42:44.707] InitializeComponent执行完成
+[2025-10-02 17:42:44.707] SystemMetricsRepository创建完成
+[2025-10-02 17:42:44.707] DashboardForm构造函数执行完成
+[2025-10-02 17:42:44.846] 错误: 加载实时数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadRealTimeData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 312
+[2025-10-02 17:42:44.908] 错误: 加载预警数据失败
+异常信息: 获取预警记录失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetWarningRecordsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 112
+   在 FormMain.DashboardForm.LoadWarningData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 350
+[2025-10-02 17:42:44.971] 错误: 加载历史数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadHistoryData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 403
+[2025-10-02 17:42:45.025] 错误: 加载大屏数据失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.LoadScreenData() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 439
+[2025-10-02 17:42:45.027] 开始加载数据，时间范围: 2025/10/1 17:42:45 到 2025/10/2 17:42:45, 指标类型: CPU使用率
+[2025-10-02 17:42:45.066] 数据库连接状态: False
+[2025-10-02 17:42:45.128] 错误: 加载饼图数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadPieChartData(DateTime startTime, DateTime endTime, String metricType) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 581
+[2025-10-02 17:42:46.795] 错误: 加载实时数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadRealTimeData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 312
+[2025-10-02 17:42:47.205] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:42:47.924] 错误: 加载大屏数据失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.LoadScreenData() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 439
+[2025-10-02 17:42:48.935] 错误: 加载实时数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadRealTimeData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 312
+[2025-10-02 17:42:49.215] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:42:50.246] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:42:51.245] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:42:52.249] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:42:53.248] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:42:54.264] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:42:55.262] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:42:56.274] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:42:57.273] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:42:58.288] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:42:59.294] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:43:00.308] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:43:01.334] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:43:02.378] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:43:03.359] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:43:04.363] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:43:05.366] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:43:06.373] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:43:07.397] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:43:08.421] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:43:09.423] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:43:10.435] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:43:11.446] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:43:12.462] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:43:13.480] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:43:15.044] 错误: 加载大屏数据失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.LoadScreenData() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 439
+[2025-10-02 17:43:17.007] 错误: 加载大屏数据失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.LoadScreenData() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 439
+[2025-10-02 17:43:18.576] 错误: 加载预警数据失败
+异常信息: 获取预警记录失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetWarningRecordsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 112
+   在 FormMain.DashboardForm.LoadWarningData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 350
+[2025-10-02 17:43:19.909] 错误: 加载预警数据失败
+异常信息: 获取预警记录失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetWarningRecordsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 112
+   在 FormMain.DashboardForm.LoadWarningData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 350
+[2025-10-02 17:43:20.913] 错误: 加载历史数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadHistoryData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 403
+[2025-10-02 17:43:21.752] 错误: 加载大屏数据失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.LoadScreenData() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 439
+[2025-10-02 17:43:22.407] 大屏刷新间隔已设置为 5 秒
+[2025-10-02 17:43:23.054] 大屏刷新间隔已设置为 5 秒
+[2025-10-02 17:43:24.978] 大屏刷新间隔已设置为 5 秒
+[2025-10-02 17:43:27.241] 开始加载数据，时间范围: 2025/10/1 17:42:45 到 2025/10/2 17:42:45, 指标类型: CPU使用率
+[2025-10-02 17:43:27.268] 数据库连接状态: False
+[2025-10-02 17:43:27.298] 错误: 加载饼图数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadPieChartData(DateTime startTime, DateTime endTime, String metricType) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 581
+[2025-10-02 17:43:27.570] 开始加载数据，时间范围: 2025/10/1 17:42:45 到 2025/10/2 17:42:45, 指标类型: CPU使用率
+[2025-10-02 17:43:27.596] 数据库连接状态: False
+[2025-10-02 17:43:27.622] 错误: 加载饼图数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadPieChartData(DateTime startTime, DateTime endTime, String metricType) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 581
+[2025-10-02 17:43:31.922] 开始加载数据，时间范围: 2025/9/30 17:42:45 到 2025/10/2 17:42:45, 指标类型: CPU使用率
+[2025-10-02 17:43:31.943] 数据库连接状态: False
+[2025-10-02 17:43:31.965] 错误: 加载饼图数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadPieChartData(DateTime startTime, DateTime endTime, String metricType) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 581
+[2025-10-02 17:43:34.633] 开始加载数据，时间范围: 2025/9/29 17:42:45 到 2025/10/2 17:42:45, 指标类型: CPU使用率
+[2025-10-02 17:43:34.659] 数据库连接状态: False
+[2025-10-02 17:43:34.685] 错误: 加载饼图数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadPieChartData(DateTime startTime, DateTime endTime, String metricType) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 581
+[2025-10-02 17:43:35.335] 开始加载数据，时间范围: 2025/9/29 17:42:45 到 2025/10/2 17:42:45, 指标类型: CPU使用率
+[2025-10-02 17:43:35.356] 数据库连接状态: False
+[2025-10-02 17:43:35.382] 错误: 加载饼图数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadPieChartData(DateTime startTime, DateTime endTime, String metricType) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 581
+[2025-10-02 17:43:37.406] 开始加载数据，时间范围: 2025/9/29 17:42:45 到 2025/10/2 17:42:45, 指标类型: CPU使用率
+[2025-10-02 17:43:37.428] 数据库连接状态: False
+[2025-10-02 17:43:37.459] 错误: 加载饼图数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadPieChartData(DateTime startTime, DateTime endTime, String metricType) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 581
+[2025-10-02 17:43:37.619] 开始加载数据，时间范围: 2025/9/29 17:42:45 到 2025/10/2 17:42:45, 指标类型: CPU使用率
+[2025-10-02 17:43:37.643] 数据库连接状态: False
+[2025-10-02 17:43:37.666] 错误: 加载饼图数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadPieChartData(DateTime startTime, DateTime endTime, String metricType) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 581
+[2025-10-02 17:45:04.589] 程序开始启动
+[2025-10-02 17:45:04.594] 即将创建MainForm
+[2025-10-02 17:45:04.647] MainForm构造函数开始执行
+[2025-10-02 17:45:04.695] InitializeComponent执行完成
+[2025-10-02 17:45:07.154] InitializeDashboardComponents执行完成
+[2025-10-02 17:45:09.343] DashboardForm构造函数开始执行
+[2025-10-02 17:45:09.413] InitializeComponent执行完成
+[2025-10-02 17:45:09.418] SystemMetricsRepository创建完成
+[2025-10-02 17:45:09.418] DashboardForm构造函数执行完成
+[2025-10-02 17:45:09.545] 错误: 加载实时数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadRealTimeData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 312
+[2025-10-02 17:45:09.586] 错误: 加载预警数据失败
+异常信息: 获取预警记录失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetWarningRecordsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 112
+   在 FormMain.DashboardForm.LoadWarningData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 350
+[2025-10-02 17:45:09.622] 错误: 加载历史数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadHistoryData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 403
+[2025-10-02 17:45:09.658] 错误: 加载大屏数据失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.LoadScreenData() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 439
+[2025-10-02 17:45:09.659] 开始加载数据，时间范围: 2025/10/1 17:45:09 到 2025/10/2 17:45:09, 指标类型: CPU使用率
+[2025-10-02 17:45:09.686] 数据库连接状态: False
+[2025-10-02 17:45:09.715] 错误: 加载饼图数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadPieChartData(DateTime startTime, DateTime endTime, String metricType) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 581
+[2025-10-02 17:45:11.383] 错误: 加载实时数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadRealTimeData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 312
+[2025-10-02 17:45:11.763] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:45:13.059] 错误: 加载预警数据失败
+异常信息: 获取预警记录失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetWarningRecordsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 112
+   在 FormMain.DashboardForm.LoadWarningData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 350
+[2025-10-02 17:45:14.432] 错误: 加载大屏数据失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.LoadScreenData() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 439
+[2025-10-02 17:45:14.965] 错误: 加载大屏数据失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.LoadScreenData() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 439
+[2025-10-02 17:45:15.889] 大屏刷新间隔已设置为 5 秒
+[2025-10-02 17:45:16.448] 大屏刷新间隔已设置为 5 秒
+[2025-10-02 17:45:17.759] 开始加载数据，时间范围: 2025/10/1 17:45:09 到 2025/10/2 17:45:09, 指标类型: CPU使用率
+[2025-10-02 17:45:17.784] 数据库连接状态: False
+[2025-10-02 17:45:17.815] 错误: 加载饼图数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadPieChartData(DateTime startTime, DateTime endTime, String metricType) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 581
+[2025-10-02 17:45:18.658] 开始加载数据，时间范围: 2025/10/1 17:45:09 到 2025/10/2 17:45:09, 指标类型: CPU使用率
+[2025-10-02 17:45:18.678] 数据库连接状态: False
+[2025-10-02 17:45:18.705] 错误: 加载饼图数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadPieChartData(DateTime startTime, DateTime endTime, String metricType) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 581
+[2025-10-02 17:45:22.448] 开始加载数据，时间范围: 2025/9/29 17:45:09 到 2025/10/2 17:45:09, 指标类型: CPU使用率
+[2025-10-02 17:45:22.478] 数据库连接状态: False
+[2025-10-02 17:45:22.513] 错误: 加载饼图数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadPieChartData(DateTime startTime, DateTime endTime, String metricType) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 581
+[2025-10-02 17:45:23.335] 错误: 加载实时数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadRealTimeData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 312
+[2025-10-02 17:45:23.888] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:45:24.919] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:45:25.909] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:45:26.928] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:45:27.912] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:45:28.941] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:45:29.935] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:45:30.958] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:45:34.378] DashboardForm构造函数开始执行
+[2025-10-02 17:45:34.383] InitializeComponent执行完成
+[2025-10-02 17:45:34.384] SystemMetricsRepository创建完成
+[2025-10-02 17:45:34.384] DashboardForm构造函数执行完成
+[2025-10-02 17:45:34.464] 错误: 加载实时数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadRealTimeData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 312
+[2025-10-02 17:45:34.494] 错误: 加载预警数据失败
+异常信息: 获取预警记录失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetWarningRecordsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 112
+   在 FormMain.DashboardForm.LoadWarningData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 350
+[2025-10-02 17:45:34.528] 错误: 加载历史数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadHistoryData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 403
+[2025-10-02 17:45:34.562] 错误: 加载大屏数据失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.LoadScreenData() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 439
+[2025-10-02 17:45:34.562] 开始加载数据，时间范围: 2025/10/1 17:45:34 到 2025/10/2 17:45:34, 指标类型: CPU使用率
+[2025-10-02 17:45:34.586] 数据库连接状态: False
+[2025-10-02 17:45:34.623] 错误: 加载饼图数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadPieChartData(DateTime startTime, DateTime endTime, String metricType) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 581
+[2025-10-02 17:45:35.754] 错误: 加载实时数据失败
+异常信息: 获取指定时间范围指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetMetricsByTimeRange(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 78
+   在 FormMain.DashboardForm.LoadRealTimeData(DateTime startTime, DateTime endTime) 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 312
+[2025-10-02 17:45:36.660] 错误: 实时数据更新失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.<RealTimeTimer_Elapsed>b__13_0() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 204
+[2025-10-02 17:45:38.163] 错误: 加载大屏数据失败
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.DashboardForm.LoadScreenData() 位置 E:\SystemMonitor\FormMain\DashboardForm.cs:行号 439
+[2025-10-02 17:47:39.077] 程序开始启动
+[2025-10-02 17:47:39.082] 即将创建MainForm
+[2025-10-02 17:47:39.130] MainForm构造函数开始执行
+[2025-10-02 17:47:39.169] InitializeComponent执行完成
+[2025-10-02 17:47:41.582] 实时监控定时器已初始化并启动
+[2025-10-02 17:47:41.582] InitializeDashboardComponents执行完成
+[2025-10-02 17:47:42.622] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:47:43.617] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:47:44.627] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:47:45.638] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:47:46.648] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:47:47.659] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:47:48.664] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:47:49.689] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:47:50.688] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:47:51.706] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:47:52.705] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:47:53.710] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:47:54.727] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:47:55.737] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:47:56.742] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:47:57.759] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:47:58.763] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:47:59.770] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:48:00.786] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:48:01.807] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:48:02.810] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:48:03.818] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:48:04.835] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:48:05.845] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:48:06.847] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: NO)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:49:06.939] 程序开始启动
+[2025-10-02 17:49:06.951] 即将创建MainForm
+[2025-10-02 17:49:06.985] MainForm构造函数开始执行
+[2025-10-02 17:49:07.023] InitializeComponent执行完成
+[2025-10-02 17:49:09.491] 实时监控定时器已初始化并启动
+[2025-10-02 17:49:09.491] InitializeDashboardComponents执行完成
+[2025-10-02 17:49:10.542] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: YES)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:49:11.544] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: YES)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:49:12.553] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: YES)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:49:13.563] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: YES)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:49:14.576] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: YES)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:49:15.588] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: YES)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:49:16.610] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: YES)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:49:17.626] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: YES)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:49:18.638] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: YES)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:49:19.646] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: YES)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:49:20.662] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: YES)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:49:34.785] 程序开始启动
+[2025-10-02 17:49:34.791] 即将创建MainForm
+[2025-10-02 17:49:34.827] MainForm构造函数开始执行
+[2025-10-02 17:49:34.860] InitializeComponent执行完成
+[2025-10-02 17:49:37.260] 实时监控定时器已初始化并启动
+[2025-10-02 17:49:37.260] InitializeDashboardComponents执行完成
+[2025-10-02 17:49:38.290] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: YES)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:49:39.291] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: YES)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:49:40.318] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: YES)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:49:41.342] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: YES)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:49:42.362] 错误: 更新实时数据出错
+异常信息: 获取最新指标数据失败: 查询执行失败: Access denied for user 'root'@'localhost' (using password: YES)
+堆栈跟踪:    在 FormMain.SystemMetricsRepository.GetLatestMetric() 位置 E:\SystemMonitor\FormMain\SystemMetricsRepository.cs:行号 175
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 841
+[2025-10-02 17:50:40.652] 程序开始启动
+[2025-10-02 17:50:40.655] 即将创建MainForm
+[2025-10-02 17:50:40.693] MainForm构造函数开始执行
+[2025-10-02 17:50:40.723] InitializeComponent执行完成
+[2025-10-02 17:50:43.019] 实时监控定时器已初始化并启动
+[2025-10-02 17:50:43.019] InitializeDashboardComponents执行完成
+[2025-10-02 17:50:43.256] 获取到100条图表数据
+[2025-10-02 17:50:43.261] 获取到20条表格数据
+[2025-10-02 17:50:44.050] 获取到100条图表数据
+[2025-10-02 17:50:44.050] 获取到20条表格数据
+[2025-10-02 17:50:45.075] 获取到100条图表数据
+[2025-10-02 17:50:45.075] 获取到20条表格数据
+[2025-10-02 17:50:45.938] DashboardForm构造函数开始执行
+[2025-10-02 17:50:45.951] InitializeComponent执行完成
+[2025-10-02 17:50:45.951] SystemMetricsRepository创建完成
+[2025-10-02 17:50:45.951] DashboardForm构造函数执行完成
+[2025-10-02 17:50:46.099] 开始加载数据，时间范围: 2025/10/1 17:50:46 到 2025/10/2 17:50:46, 指标类型: CPU使用率
+[2025-10-02 17:50:46.099] 数据库连接状态: True
+[2025-10-02 17:50:46.102] 获取到 965 条数据
+[2025-10-02 17:50:46.155] 获取到100条图表数据
+[2025-10-02 17:50:46.164] 获取到20条表格数据
+[2025-10-02 17:50:47.089] 获取到100条图表数据
+[2025-10-02 17:50:47.093] 获取到20条表格数据
+[2025-10-02 17:50:48.093] 获取到100条图表数据
+[2025-10-02 17:50:48.096] 获取到20条表格数据
+[2025-10-02 17:50:49.102] 获取到100条图表数据
+[2025-10-02 17:50:49.104] 获取到20条表格数据
+[2025-10-02 17:50:50.117] 获取到100条图表数据
+[2025-10-02 17:50:50.117] 获取到20条表格数据
+[2025-10-02 17:50:51.112] 获取到100条图表数据
+[2025-10-02 17:50:51.118] 获取到20条表格数据
+[2025-10-02 17:50:52.114] 获取到100条图表数据
+[2025-10-02 17:50:52.119] 获取到20条表格数据
+[2025-10-02 17:50:53.125] 获取到100条图表数据
+[2025-10-02 17:50:53.130] 获取到20条表格数据
+[2025-10-02 17:50:54.133] 获取到100条图表数据
+[2025-10-02 17:50:54.133] 获取到20条表格数据
+[2025-10-02 17:50:55.138] 获取到100条图表数据
+[2025-10-02 17:50:55.138] 获取到20条表格数据
+[2025-10-02 17:50:56.158] 获取到100条图表数据
+[2025-10-02 17:50:56.160] 获取到20条表格数据
+[2025-10-02 17:50:57.169] 获取到100条图表数据
+[2025-10-02 17:50:57.169] 获取到20条表格数据
+[2025-10-02 17:50:58.188] 获取到100条图表数据
+[2025-10-02 17:50:58.193] 获取到20条表格数据
+[2025-10-02 17:50:59.202] 获取到100条图表数据
+[2025-10-02 17:50:59.204] 获取到20条表格数据
+[2025-10-02 17:51:00.209] 获取到100条图表数据
+[2025-10-02 17:51:00.210] 获取到20条表格数据
+[2025-10-02 17:51:01.221] 获取到100条图表数据
+[2025-10-02 17:51:01.223] 获取到20条表格数据
+[2025-10-02 17:51:02.221] 获取到100条图表数据
+[2025-10-02 17:51:02.224] 获取到20条表格数据
+[2025-10-02 17:51:03.230] 获取到100条图表数据
+[2025-10-02 17:51:03.230] 获取到20条表格数据
+[2025-10-02 17:51:04.244] 获取到100条图表数据
+[2025-10-02 17:51:04.246] 获取到20条表格数据
+[2025-10-02 17:51:05.560] 获取到100条图表数据
+[2025-10-02 17:51:05.565] 获取到20条表格数据
+[2025-10-02 17:51:06.265] 获取到100条图表数据
+[2025-10-02 17:51:06.267] 获取到20条表格数据
+[2025-10-02 17:51:07.268] 获取到100条图表数据
+[2025-10-02 17:51:07.273] 获取到20条表格数据
+[2025-10-02 17:51:08.278] 获取到100条图表数据
+[2025-10-02 17:51:08.283] 获取到20条表格数据
+[2025-10-02 17:51:09.287] 获取到100条图表数据
+[2025-10-02 17:51:09.289] 获取到20条表格数据
+[2025-10-02 17:51:10.288] 获取到100条图表数据
+[2025-10-02 17:51:10.293] 获取到20条表格数据
+[2025-10-02 17:51:11.303] 获取到100条图表数据
+[2025-10-02 17:51:11.305] 获取到20条表格数据
+[2025-10-02 17:51:12.304] 获取到100条图表数据
+[2025-10-02 17:51:12.304] 获取到20条表格数据
+[2025-10-02 17:51:13.310] 获取到100条图表数据
+[2025-10-02 17:51:13.310] 获取到20条表格数据
+[2025-10-02 17:51:14.320] 获取到100条图表数据
+[2025-10-02 17:51:14.322] 获取到20条表格数据
+[2025-10-02 17:51:15.328] 获取到100条图表数据
+[2025-10-02 17:51:15.330] 获取到20条表格数据
+[2025-10-02 17:51:16.346] 获取到100条图表数据
+[2025-10-02 17:51:16.351] 获取到20条表格数据
+[2025-10-02 17:51:17.356] 获取到100条图表数据
+[2025-10-02 17:51:17.359] 获取到20条表格数据
+[2025-10-02 17:51:18.370] 获取到100条图表数据
+[2025-10-02 17:51:18.370] 获取到20条表格数据
+[2025-10-02 17:51:18.855] 开始加载数据，时间范围: 2025/10/1 17:50:46 到 2025/10/2 17:50:46, 指标类型: CPU使用率
+[2025-10-02 17:51:18.855] 数据库连接状态: True
+[2025-10-02 17:51:18.859] 获取到 966 条数据
+[2025-10-02 17:51:19.381] 获取到100条图表数据
+[2025-10-02 17:51:19.381] 获取到20条表格数据
+[2025-10-02 17:51:20.383] 获取到100条图表数据
+[2025-10-02 17:51:20.384] 获取到20条表格数据
+[2025-10-02 17:51:21.387] 获取到100条图表数据
+[2025-10-02 17:51:21.387] 获取到20条表格数据
+[2025-10-02 17:51:22.392] 获取到100条图表数据
+[2025-10-02 17:51:22.392] 获取到20条表格数据
+[2025-10-02 17:51:22.729] 开始加载数据，时间范围: 2025/10/1 17:50:46 到 2025/10/2 17:50:46, 指标类型: CPU使用率
+[2025-10-02 17:51:22.729] 数据库连接状态: True
+[2025-10-02 17:51:22.734] 获取到 966 条数据
+[2025-10-02 17:51:23.197] 开始加载数据，时间范围: 2025/10/1 17:50:46 到 2025/10/2 17:50:46, 指标类型: CPU使用率
+[2025-10-02 17:51:23.197] 数据库连接状态: True
+[2025-10-02 17:51:23.201] 获取到 966 条数据
+[2025-10-02 17:51:23.404] 获取到100条图表数据
+[2025-10-02 17:51:23.404] 获取到20条表格数据
+[2025-10-02 17:51:23.542] 开始加载数据，时间范围: 2025/10/1 17:50:46 到 2025/10/2 17:50:46, 指标类型: CPU使用率
+[2025-10-02 17:51:23.542] 数据库连接状态: True
+[2025-10-02 17:51:23.544] 获取到 966 条数据
+[2025-10-02 17:51:24.431] 获取到100条图表数据
+[2025-10-02 17:51:24.433] 获取到20条表格数据
+[2025-10-02 17:51:25.435] 获取到100条图表数据
+[2025-10-02 17:51:25.435] 获取到20条表格数据
+[2025-10-02 17:51:26.445] 获取到100条图表数据
+[2025-10-02 17:51:26.445] 获取到20条表格数据
+[2025-10-02 17:51:27.502] 获取到100条图表数据
+[2025-10-02 17:51:27.502] 获取到20条表格数据
+[2025-10-02 17:51:28.457] 获取到100条图表数据
+[2025-10-02 17:51:28.459] 获取到20条表格数据
+[2025-10-02 17:51:29.466] 获取到100条图表数据
+[2025-10-02 17:51:29.468] 获取到20条表格数据
+[2025-10-02 17:51:30.487] 获取到100条图表数据
+[2025-10-02 17:51:30.494] 获取到20条表格数据
+[2025-10-02 17:51:31.503] 获取到100条图表数据
+[2025-10-02 17:51:31.506] 获取到20条表格数据
+[2025-10-02 17:51:32.508] 获取到100条图表数据
+[2025-10-02 17:51:32.514] 获取到20条表格数据
+[2025-10-02 17:51:33.541] 获取到100条图表数据
+[2025-10-02 17:51:33.546] 获取到20条表格数据
+[2025-10-02 17:51:34.554] 获取到100条图表数据
+[2025-10-02 17:51:34.556] 获取到20条表格数据
+[2025-10-02 17:51:35.559] 获取到100条图表数据
+[2025-10-02 17:51:35.560] 获取到20条表格数据
+[2025-10-02 17:52:07.950] 程序开始启动
+[2025-10-02 17:52:07.950] 即将创建MainForm
+[2025-10-02 17:52:07.998] MainForm构造函数开始执行
+[2025-10-02 17:52:08.034] InitializeComponent执行完成
+[2025-10-02 17:52:10.382] 实时监控定时器已初始化并启动
+[2025-10-02 17:52:10.382] InitializeDashboardComponents执行完成
+[2025-10-02 17:52:10.609] 获取到100条图表数据
+[2025-10-02 17:52:10.617] 获取到20条表格数据
+[2025-10-02 17:52:11.405] 获取到100条图表数据
+[2025-10-02 17:52:11.408] 获取到20条表格数据
+[2025-10-02 17:52:12.422] 获取到100条图表数据
+[2025-10-02 17:52:12.422] 获取到20条表格数据
+[2025-10-02 18:08:34.810] 程序开始启动
+[2025-10-02 18:08:34.815] 即将创建MainForm
+[2025-10-02 18:08:34.851] MainForm构造函数开始执行
+[2025-10-02 18:08:34.985] InitializeComponent执行完成
+[2025-10-02 18:08:37.418] 实时监控定时器已初始化并启动
+[2025-10-02 18:08:37.418] InitializeDashboardComponents执行完成
+[2025-10-02 18:08:37.660] 获取到100条图表数据
+[2025-10-02 18:08:37.666] 获取到20条表格数据
+[2025-10-02 18:08:38.466] 获取到100条图表数据
+[2025-10-02 18:08:38.466] 获取到20条表格数据
+[2025-10-02 18:08:39.450] 获取到100条图表数据
+[2025-10-02 18:08:39.450] 获取到20条表格数据
+[2025-10-02 18:08:40.453] 获取到100条图表数据
+[2025-10-02 18:08:40.453] 获取到20条表格数据
+[2025-10-02 18:08:41.455] 获取到100条图表数据
+[2025-10-02 18:08:41.462] 获取到20条表格数据
+[2025-10-02 18:08:41.840] DashboardForm构造函数开始执行
+[2025-10-02 18:08:41.851] InitializeComponent执行完成
+[2025-10-02 18:08:41.851] SystemMetricsRepository创建完成
+[2025-10-02 18:08:41.851] DashboardForm构造函数执行完成
+[2025-10-02 18:08:41.976] 开始加载数据，时间范围: 2025/10/1 18:08:41 到 2025/10/2 18:08:41, 指标类型: CPU使用率
+[2025-10-02 18:08:41.976] 数据库连接状态: True
+[2025-10-02 18:08:41.976] 获取到 1020 条数据
+[2025-10-02 18:08:42.466] 获取到100条图表数据
+[2025-10-02 18:08:42.476] 获取到20条表格数据
+[2025-10-02 18:08:43.471] 获取到100条图表数据
+[2025-10-02 18:08:43.476] 获取到20条表格数据
+[2025-10-02 18:08:44.475] 获取到100条图表数据
+[2025-10-02 18:08:44.475] 获取到20条表格数据
+[2025-10-02 18:08:45.543] 获取到100条图表数据
+[2025-10-02 18:08:45.543] 获取到20条表格数据
+[2025-10-02 18:08:46.496] 获取到100条图表数据
+[2025-10-02 18:08:46.496] 获取到20条表格数据
+[2025-10-02 18:08:47.508] 获取到100条图表数据
+[2025-10-02 18:08:47.513] 获取到20条表格数据
+[2025-10-02 18:08:48.575] 获取到100条图表数据
+[2025-10-02 18:08:48.575] 获取到20条表格数据
+[2025-10-02 18:08:49.544] 获取到100条图表数据
+[2025-10-02 18:08:49.549] 获取到20条表格数据
+[2025-10-02 18:08:50.561] 获取到100条图表数据
+[2025-10-02 18:08:50.561] 获取到20条表格数据
+[2025-10-02 18:08:51.573] 获取到100条图表数据
+[2025-10-02 18:08:51.578] 获取到20条表格数据
+[2025-10-02 18:08:52.587] 获取到100条图表数据
+[2025-10-02 18:08:52.589] 获取到20条表格数据
+[2025-10-02 18:08:53.589] 获取到100条图表数据
+[2025-10-02 18:08:53.591] 获取到20条表格数据
+[2025-10-02 18:08:54.597] 获取到100条图表数据
+[2025-10-02 18:08:54.603] 获取到20条表格数据
+[2025-10-02 18:08:55.603] 获取到100条图表数据
+[2025-10-02 18:08:55.608] 获取到20条表格数据
+[2025-10-02 18:08:56.618] 获取到100条图表数据
+[2025-10-02 18:08:56.618] 获取到20条表格数据
+[2025-10-02 18:08:57.627] 获取到100条图表数据
+[2025-10-02 18:08:57.630] 获取到20条表格数据
+[2025-10-02 18:08:58.626] 获取到100条图表数据
+[2025-10-02 18:08:58.632] 获取到20条表格数据
+[2025-10-02 18:08:59.635] 获取到100条图表数据
+[2025-10-02 18:08:59.638] 获取到20条表格数据
+[2025-10-02 18:09:00.651] 获取到100条图表数据
+[2025-10-02 18:09:00.653] 获取到20条表格数据
+[2025-10-02 18:09:01.658] 获取到100条图表数据
+[2025-10-02 18:09:01.658] 获取到20条表格数据
+[2025-10-02 18:09:02.666] 获取到100条图表数据
+[2025-10-02 18:09:02.668] 获取到20条表格数据
+[2025-10-02 18:09:03.665] 获取到100条图表数据
+[2025-10-02 18:09:03.667] 获取到20条表格数据
+[2025-10-02 18:09:04.670] 获取到100条图表数据
+[2025-10-02 18:09:04.672] 获取到20条表格数据
+[2025-10-02 18:09:05.681] 获取到100条图表数据
+[2025-10-02 18:09:05.685] 获取到20条表格数据
+[2025-10-02 18:09:06.694] 获取到100条图表数据
+[2025-10-02 18:09:06.696] 获取到20条表格数据
+[2025-10-02 18:09:07.697] 获取到100条图表数据
+[2025-10-02 18:09:07.700] 获取到20条表格数据
+[2025-10-02 18:09:08.696] 获取到100条图表数据
+[2025-10-02 18:09:08.696] 获取到20条表格数据
+[2025-10-02 18:09:09.702] 获取到100条图表数据
+[2025-10-02 18:09:09.707] 获取到20条表格数据
+[2025-10-02 18:09:10.715] 获取到100条图表数据
+[2025-10-02 18:09:10.718] 获取到20条表格数据
+[2025-10-02 18:09:11.716] 获取到100条图表数据
+[2025-10-02 18:09:11.716] 获取到20条表格数据
+[2025-10-02 18:11:34.714] 程序开始启动
+[2025-10-02 18:11:34.714] 即将创建MainForm
+[2025-10-02 18:11:34.759] MainForm构造函数开始执行
+[2025-10-02 18:11:34.895] InitializeComponent执行完成
+[2025-10-02 18:11:37.520] 实时监控定时器已初始化并启动
+[2025-10-02 18:11:37.520] InitializeDashboardComponents执行完成
+[2025-10-02 18:11:37.747] 获取到100条图表数据
+[2025-10-02 18:11:37.762] 获取到20条表格数据
+[2025-10-02 18:11:38.538] 获取到100条图表数据
+[2025-10-02 18:11:38.544] 获取到20条表格数据
+[2025-10-02 18:11:39.534] 获取到100条图表数据
+[2025-10-02 18:11:39.539] 获取到20条表格数据
+[2025-10-02 18:11:40.542] 获取到100条图表数据
+[2025-10-02 18:11:40.542] 获取到20条表格数据
+[2025-10-02 18:11:41.225] DashboardForm构造函数开始执行
+[2025-10-02 18:11:41.241] InitializeComponent执行完成
+[2025-10-02 18:11:41.241] SystemMetricsRepository创建完成
+[2025-10-02 18:11:41.241] DashboardForm构造函数执行完成
+[2025-10-02 18:11:41.380] 开始加载数据，时间范围: 2025/10/1 18:11:41 到 2025/10/2 18:11:41, 指标类型: CPU使用率
+[2025-10-02 18:11:41.381] 数据库连接状态: True
+[2025-10-02 18:11:41.384] 获取到 1054 条数据
+[2025-10-02 18:11:41.560] 获取到100条图表数据
+[2025-10-02 18:11:41.560] 获取到20条表格数据
+[2025-10-02 18:11:42.600] 获取到100条图表数据
+[2025-10-02 18:11:42.603] 获取到20条表格数据
+[2025-10-02 18:11:43.558] 获取到100条图表数据
+[2025-10-02 18:11:43.563] 获取到20条表格数据
+[2025-10-02 18:11:44.562] 获取到100条图表数据
+[2025-10-02 18:11:44.566] 获取到20条表格数据
+[2025-10-02 18:11:45.580] 获取到100条图表数据
+[2025-10-02 18:11:45.580] 获取到20条表格数据
+[2025-10-02 18:11:46.591] 获取到100条图表数据
+[2025-10-02 18:11:46.596] 获取到20条表格数据
+[2025-10-02 18:11:47.592] 获取到100条图表数据
+[2025-10-02 18:11:47.596] 获取到20条表格数据
+[2025-10-02 18:11:48.604] 获取到100条图表数据
+[2025-10-02 18:11:48.607] 获取到20条表格数据
+[2025-10-02 18:11:49.421] DashboardForm构造函数开始执行
+[2025-10-02 18:11:49.426] InitializeComponent执行完成
+[2025-10-02 18:11:49.426] SystemMetricsRepository创建完成
+[2025-10-02 18:11:49.426] DashboardForm构造函数执行完成
+[2025-10-02 18:11:49.570] 开始加载数据，时间范围: 2025/10/1 18:11:49 到 2025/10/2 18:11:49, 指标类型: CPU使用率
+[2025-10-02 18:11:49.570] 数据库连接状态: True
+[2025-10-02 18:11:49.572] 获取到 1062 条数据
+[2025-10-02 18:11:49.634] 获取到100条图表数据
+[2025-10-02 18:11:49.637] 获取到20条表格数据
+[2025-10-02 18:11:50.626] 获取到100条图表数据
+[2025-10-02 18:11:50.630] 获取到20条表格数据
+[2025-10-02 18:11:51.634] 获取到100条图表数据
+[2025-10-02 18:11:51.634] 获取到20条表格数据
+[2025-10-02 18:11:52.643] 获取到100条图表数据
+[2025-10-02 18:11:52.643] 获取到20条表格数据
+[2025-10-02 18:11:53.654] 获取到100条图表数据
+[2025-10-02 18:11:53.659] 获取到20条表格数据
+[2025-10-02 18:11:54.666] 获取到100条图表数据
+[2025-10-02 18:11:54.666] 获取到20条表格数据
+[2025-10-02 18:11:55.678] 获取到100条图表数据
+[2025-10-02 18:11:55.678] 获取到20条表格数据
+[2025-10-02 18:12:09.510] 程序开始启动
+[2025-10-02 18:12:09.510] 即将创建MainForm
+[2025-10-02 18:12:09.557] MainForm构造函数开始执行
+[2025-10-02 18:12:09.699] InitializeComponent执行完成
+[2025-10-02 18:12:12.045] 实时监控定时器已初始化并启动
+[2025-10-02 18:12:12.048] InitializeDashboardComponents执行完成
+[2025-10-02 18:12:12.275] 获取到100条图表数据
+[2025-10-02 18:12:12.285] 获取到20条表格数据
+[2025-10-02 18:12:13.080] 获取到100条图表数据
+[2025-10-02 18:12:13.085] 获取到20条表格数据
+[2025-10-02 18:12:14.062] 获取到100条图表数据
+[2025-10-02 18:12:14.064] 获取到20条表格数据
+[2025-10-02 18:12:15.071] 获取到100条图表数据
+[2025-10-02 18:12:15.071] 获取到20条表格数据
+[2025-10-02 18:12:16.084] 获取到100条图表数据
+[2025-10-02 18:12:16.086] 获取到20条表格数据
+[2025-10-02 18:12:17.084] 获取到100条图表数据
+[2025-10-02 18:12:17.089] 获取到20条表格数据
+[2025-10-02 18:12:18.084] 获取到100条图表数据
+[2025-10-02 18:12:18.086] 获取到20条表格数据
+[2025-10-02 18:12:19.121] 获取到100条图表数据
+[2025-10-02 18:12:19.126] 获取到20条表格数据
+[2025-10-02 18:12:20.118] 获取到100条图表数据
+[2025-10-02 18:12:20.124] 获取到20条表格数据
+[2025-10-02 18:12:21.090] 获取到100条图表数据
+[2025-10-02 18:12:21.092] 获取到20条表格数据
+[2025-10-02 18:12:22.107] 获取到100条图表数据
+[2025-10-02 18:12:22.112] 获取到20条表格数据
+[2025-10-02 18:12:23.106] 获取到100条图表数据
+[2025-10-02 18:12:23.111] 获取到20条表格数据
+[2025-10-02 18:12:24.102] 获取到100条图表数据
+[2025-10-02 18:12:24.107] 获取到20条表格数据
+[2025-10-02 18:12:25.107] 获取到100条图表数据
+[2025-10-02 18:12:25.112] 获取到20条表格数据
+[2025-10-02 18:12:26.117] 获取到100条图表数据
+[2025-10-02 18:12:26.117] 获取到20条表格数据
+[2025-10-02 18:12:27.200] 获取到100条图表数据
+[2025-10-02 18:12:27.204] 获取到20条表格数据
+[2025-10-02 18:12:28.130] 获取到100条图表数据
+[2025-10-02 18:12:28.133] 获取到20条表格数据
+[2025-10-02 18:12:29.138] 获取到100条图表数据
+[2025-10-02 18:12:29.141] 获取到20条表格数据
+[2025-10-02 18:12:30.142] 获取到100条图表数据
+[2025-10-02 18:12:30.156] 获取到20条表格数据
+[2025-10-02 18:12:31.157] 获取到100条图表数据
+[2025-10-02 18:12:31.160] 获取到20条表格数据
+[2025-10-02 18:12:32.164] 获取到100条图表数据
+[2025-10-02 18:12:32.166] 获取到20条表格数据
+[2025-10-02 18:12:33.176] 获取到100条图表数据
+[2025-10-02 18:12:33.180] 获取到20条表格数据
+[2025-10-02 18:12:34.195] 获取到100条图表数据
+[2025-10-02 18:12:34.200] 获取到20条表格数据
+[2025-10-02 18:12:35.201] 获取到100条图表数据
+[2025-10-02 18:12:35.201] 获取到20条表格数据
+[2025-10-02 18:12:36.215] 获取到100条图表数据
+[2025-10-02 18:12:36.215] 获取到20条表格数据
+[2025-10-02 18:12:37.227] 获取到100条图表数据
+[2025-10-02 18:12:37.227] 获取到20条表格数据
+[2025-10-02 18:12:38.296] 错误: 更新实时数据出错
+异常信息: 无法访问已释放的对象。
+对象名:“MainForm”。
+堆栈跟踪:    在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 FormMain.MainForm.RealTimeTimer_Elapsed(Object sender, ElapsedEventArgs e) 位置 E:\SystemMonitor\FormMain\MainForm.cs:行号 867
+[2025-10-02 18:22:14.702] 程序开始启动
+[2025-10-02 18:22:14.705] 即将创建MainForm
+[2025-10-02 18:22:14.762] MainForm构造函数开始执行
+[2025-10-02 18:22:14.948] InitializeComponent执行完成
+[2025-10-02 18:23:16.276] 程序开始启动
+[2025-10-02 18:23:16.281] 即将创建MainForm
+[2025-10-02 18:23:16.319] MainForm构造函数开始执行
+[2025-10-02 18:23:16.452] InitializeComponent执行完成
+[2025-10-02 18:29:01.370] 程序开始启动
+[2025-10-02 18:29:01.372] 即将创建MainForm
+[2025-10-02 18:29:01.392] MainForm构造函数开始执行
+[2025-10-02 18:29:01.495] InitializeComponent执行完成
+[2025-10-02 18:29:03.810] 程序开始启动
+[2025-10-02 18:29:03.810] 即将创建MainForm
+[2025-10-02 18:29:03.868] MainForm构造函数开始执行
+[2025-10-02 18:29:04.012] InitializeComponent执行完成
+[2025-10-02 18:46:55.625] 程序开始启动
+[2025-10-02 18:46:55.630] 即将创建MainForm
+[2025-10-02 18:46:55.676] MainForm构造函数开始执行
+[2025-10-02 18:46:55.841] InitializeComponent执行完成
+[2025-10-02 18:49:15.863] 程序开始启动
+[2025-10-02 18:49:15.866] 即将创建MainForm
+[2025-10-02 18:49:15.886] MainForm构造函数开始执行
+[2025-10-02 18:49:15.993] InitializeComponent执行完成
+[2025-10-02 18:49:25.040] 程序开始启动
+[2025-10-02 18:49:25.045] 即将创建MainForm
+[2025-10-02 18:49:25.065] MainForm构造函数开始执行
+[2025-10-02 18:49:25.159] InitializeComponent执行完成
+[2025-10-02 18:49:46.515] 程序开始启动
+[2025-10-02 18:49:46.517] 即将创建MainForm
+[2025-10-02 18:49:46.535] MainForm构造函数开始执行
+[2025-10-02 18:49:46.637] InitializeComponent执行完成
+[2025-10-02 18:53:50.205] 程序开始启动
+[2025-10-02 18:53:50.205] 即将创建MainForm
+[2025-10-02 18:53:50.261] MainForm构造函数开始执行
+[2025-10-02 18:53:50.468] InitializeComponent执行完成
+[2025-10-02 18:56:50.863] 程序开始启动
+[2025-10-02 18:56:50.867] 即将创建MainForm
+[2025-10-02 18:56:50.908] MainForm构造函数开始执行
+[2025-10-02 18:56:51.021] InitializeComponent执行完成
+[2025-10-02 18:58:31.966] 程序开始启动
+[2025-10-02 18:58:31.970] 即将创建MainForm
+[2025-10-02 18:58:32.017] MainForm构造函数开始执行
+[2025-10-02 18:58:32.168] InitializeComponent执行完成
+[2025-10-02 19:00:28.108] 程序开始启动
+[2025-10-02 19:00:28.111] 即将创建MainForm
+[2025-10-02 19:00:28.132] MainForm构造函数开始执行
+[2025-10-02 19:00:28.224] InitializeComponent执行完成
+[2025-10-02 19:01:11.837] 程序开始启动
+[2025-10-02 19:01:11.843] 即将创建MainForm
+[2025-10-02 19:01:11.869] MainForm构造函数开始执行
+[2025-10-02 19:01:11.966] InitializeComponent执行完成
+[2025-10-02 19:04:48.634] 程序开始启动
+[2025-10-02 19:04:48.637] 即将创建MainForm
+[2025-10-02 19:04:48.662] MainForm构造函数开始执行
+[2025-10-02 19:04:48.753] InitializeComponent执行完成
+[2025-10-02 19:06:52.306] 程序开始启动
+[2025-10-02 19:06:52.311] 即将创建MainForm
+[2025-10-02 19:06:52.353] MainForm构造函数开始执行
+[2025-10-02 19:06:52.481] InitializeComponent执行完成
+[2025-10-02 19:09:05.706] 程序开始启动
+[2025-10-02 19:09:05.706] 即将创建MainForm
+[2025-10-02 19:09:05.730] MainForm构造函数开始执行
+[2025-10-02 19:09:05.828] InitializeComponent执行完成
+[2025-10-02 19:09:35.539] 程序开始启动
+[2025-10-02 19:09:35.545] 即将创建MainForm
+[2025-10-02 19:09:35.592] MainForm构造函数开始执行
+[2025-10-02 19:09:35.722] InitializeComponent执行完成
+[2025-10-02 19:10:17.958] 程序开始启动
+[2025-10-02 19:10:17.963] 即将创建MainForm
+[2025-10-02 19:10:17.978] MainForm构造函数开始执行
+[2025-10-02 19:10:18.083] InitializeComponent执行完成
+[2025-10-02 19:12:42.010] 程序开始启动
+[2025-10-02 19:12:42.013] 即将创建MainForm
+[2025-10-02 19:12:42.032] MainForm构造函数开始执行
+[2025-10-02 19:12:42.126] InitializeComponent执行完成
+[2025-10-02 19:14:06.337] 程序开始启动
+[2025-10-02 19:14:06.337] 即将创建MainForm
+[2025-10-02 19:14:06.357] MainForm构造函数开始执行
+[2025-10-02 19:14:06.455] InitializeComponent执行完成
+[2025-10-02 19:15:51.945] 程序开始启动
+[2025-10-02 19:15:51.948] 即将创建MainForm
+[2025-10-02 19:15:51.967] MainForm构造函数开始执行
+[2025-10-02 19:15:52.054] InitializeComponent执行完成
+[2025-10-02 19:17:07.670] 程序开始启动
+[2025-10-02 19:17:07.674] 即将创建MainForm
+[2025-10-02 19:17:07.694] MainForm构造函数开始执行
+[2025-10-02 19:17:07.795] InitializeComponent执行完成
+[2025-10-02 19:18:43.799] 程序开始启动
+[2025-10-02 19:18:43.805] 即将创建MainForm
+[2025-10-02 19:18:43.820] MainForm构造函数开始执行
+[2025-10-02 19:18:43.913] InitializeComponent执行完成
+[2025-10-02 19:19:53.141] 程序开始启动
+[2025-10-02 19:19:53.145] 即将创建MainForm
+[2025-10-02 19:19:53.165] MainForm构造函数开始执行
+[2025-10-02 19:19:53.252] InitializeComponent执行完成
+[2025-10-02 19:20:50.972] 程序开始启动
+[2025-10-02 19:20:50.972] 即将创建MainForm
+[2025-10-02 19:20:50.993] MainForm构造函数开始执行
+[2025-10-02 19:20:51.098] InitializeComponent执行完成
+[2025-10-02 19:21:43.777] 程序开始启动
+[2025-10-02 19:21:43.779] 即将创建MainForm
+[2025-10-02 19:21:43.799] MainForm构造函数开始执行
+[2025-10-02 19:21:43.893] InitializeComponent执行完成
+[2025-10-02 19:23:04.633] 程序开始启动
+[2025-10-02 19:23:04.633] 即将创建MainForm
+[2025-10-02 19:23:04.656] MainForm构造函数开始执行
+[2025-10-02 19:23:04.752] InitializeComponent执行完成
+[2025-10-02 19:25:10.765] 程序开始启动
+[2025-10-02 19:25:10.768] 即将创建MainForm
+[2025-10-02 19:25:10.790] MainForm构造函数开始执行
+[2025-10-02 19:25:10.892] InitializeComponent执行完成
+[2025-10-02 19:25:24.508] 程序开始启动
+[2025-10-02 19:25:24.513] 即将创建MainForm
+[2025-10-02 19:25:24.551] MainForm构造函数开始执行
+[2025-10-02 19:25:24.673] InitializeComponent执行完成
